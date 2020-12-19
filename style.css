@@ -12,4 +12,12 @@
     padding: 20px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
   }
- 
+
+  #body{
+      background-image: url(./assest/particle_gif.gif);
+}
+
+#About{
+
+
+}

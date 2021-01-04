@@ -14,10 +14,13 @@
   }
 
   #body{
-      background-image: url(./assest/particle_gif.gif);
+      background-color:#121212;
 }
 
 #About{
-
+      background-color: #121212;
 
 }
+/*                           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6 ml-1" viewBox="0 0 24 24">
+                             <path d="M5 12h14M12 5l7 7-7 7"></path>
+                           </svg>*/

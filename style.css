@@ -25,6 +25,26 @@
       #webnav { display:none;}
   }
 
+  #selfbg{
+      border-radius: 50px;
+      background: #121212;
+      box-shadow:  27px 27px 0px #0f0f0f,
+                   -27px -27px 0px #151515;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*                           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6 ml-1" viewBox="0 0 24 24">
                              <path d="M5 12h14M12 5l7 7-7 7"></path>
                            </svg>*/

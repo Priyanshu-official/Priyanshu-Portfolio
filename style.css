@@ -28,7 +28,7 @@
   #selfbg{
       border-radius: 50px;
       background: #121212;
-      box-shadow:  27px 27px 0px #0f0f0f,
+      box-shadow:  27px 27px 10px #0f0f0f,
                    -27px -27px 0px #151515;
   }
 

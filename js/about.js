@@ -2,7 +2,7 @@ var aboutContainer = document.querySelector('.about')
 
 var aboutcontent = [
     {
-        intro:'I am learner while doing things in a Practical Way and Open Source Enthusiast.I am keen and very willing to learn and develop new skills.  Seeking a challenging position in a growth-oriented environment  where I can expand and utilise my learning and skills so that I can contribute towards organisation goals and establish a career for myself.',
+        intro:'I am learner while doing things in a Practical Way and Open Source Enthusiast. I am keen and very willing to learn and develop new skills.  Seeking a challenging position in a growth-oriented environment  where I can expand and utilise my learning and skills so that I can contribute towards organisation goals and establish a career for myself.',
    
     }
 ]

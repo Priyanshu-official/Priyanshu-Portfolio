@@ -20,8 +20,8 @@
 }
 
 #About{
-/*       background-color: #121212;
- */
+  background-color: #121212;
+ 
 
 /*  background-color:#071317  ;
  */
@@ -39,18 +39,17 @@
 
 .color1{
     font-size: 72px;
-    background: -webkit-linear-gradient( #69cdee, #333);
+    background: -webkit-linear-gradient( #34e89e, #0f3443);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-/*   color:#71bbd4;
- *//*   color: #399cbd;
- */
 }
 
+.color2{
+  background: -webkit-linear-gradient( #34e89e, #0f3443);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-
-
-
+}
 
 
 

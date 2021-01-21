@@ -20,10 +20,10 @@ function displayAbout(){
         <div class="flex-grow">
           <h1 class="color1 title-font sm:text-2xl text-3xl text-gray-900 text-lg title-font font-medium text-center">About</h1>
           <h1 class="color1 title-font sm:text-4xl text-3xl text-lg title-font font-medium text-center mb-4">Let me introduce myself</h1>
-          <p class="leading-relaxed text-base text-justify text-gray-800 " style="font-size: x-large;">${intro}</p>
+          <p class="leading-relaxed text-base text-justify text-white " style="font-size: x-large;">${intro}</p>
         </div>
       </div>
-      <h1 class="title-font sm:text-2xl text-3xl text-gray-900 text-lg title-font font-medium text-center border-b rounded-lg border-blue-500">Tools Which I Use </h1>
+      <h1 class="color1 title-font sm:text-2xl text-3xl text-lg title-font font-medium text-center border-b rounded-lg border-blue-500">Tools Which I Use </h1>
       <div class="flex justify-center mt-8">
         <a class="inline-flex focus:outline-none"><img src="./assest/wind_linux.png" alt="github" style="height:90px;"></a>
 

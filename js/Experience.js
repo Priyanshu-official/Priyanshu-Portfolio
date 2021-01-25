@@ -34,8 +34,8 @@ function displaycard(){
     console.log('ok');
     let output = ""
     experienceCard.forEach(({title ,desc,date, Tool}) =>{
-        output += `<div class="xl:w-1/2 md:w-1/2 p-4 ">
-        <div class="border border-gray-300 p-6 rounded-lg hover:bg-blue-700 transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-11">
+        output += `<div class="xl:w-1/2 md:w-1/2 p-4">
+        <div class="border border-gray-300 p-6 rounded-lg hover:bg-blue-700 duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-11">
           <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
               <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>

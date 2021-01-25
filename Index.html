@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
 </head>
-<body>
-  <div id="body">
+<body id="Home">
       <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
     
-      <header class=" text-white body-font">
-            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center " >
+      <header id="body">
+        <div class="text-white body-font">    
+          <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center " >
                 <nav class="flex lg:w-2/5 flex-wrap items-center text-sm md:ml-auto" id="webnav">
                   <a href="#Home" class="mr-5 hover:text-blue-500 ">HOME</a>
                   <a href="#About" class="mr-5 hover:text-blue-500 ">ABOUT</a>
@@ -30,7 +30,7 @@
                   <span id="font" class="inline-flex ml-3 text-xl text-white"><span class="color2 mr-2">Priyanshu</span> Kaushal</span>
                </a>
                 <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-                    <a href="https://drive.google.com/file/d/1l9-Sj-eZgW6C-ZCKfy99ARYWrecPRzHP/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1dnZZtPhT5-iZpf7PS9YUfiWUgVlOEQAg/view?usp=sharing" target="_blank">
                       <button id="font" class="inline-flex items-center border-2 border-blue-500 focus:outline-none rounded-full py-1 px-8 text-base mt-2 md:mt-0 text-white text-xl
                         transition duration-500 ease-in-out hover:border-white hover:bg-white hover:text-green-700 transform hover:-translate-y-1 hover:scale-11" >Resume
                         <span class="flex h-3 w-3">
@@ -40,11 +40,12 @@
                        </button> 
                       </a>
                 </div>
-              </div>
+            </div>
+         </div>     
         </header>
     
         <!--********* Main Section *********-->
-    <main>
+    <main id="body">
         <section class="text-gray-700 body-font mt-auto" style= " height: 100%;" >
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
               <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -87,15 +88,12 @@
                 </div>
                 <div id="effect" class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                       <img id="selfbg" class="object-cover object-center rounded" alt="hero" src="./assest/self1.jpg">
-                  </div>
+                </div>
             </div>
           </section>
-        </div>
 
             <!-- About Section-->
-        <div id="About">
-              <section class="about text-gray-700 body-font"></section>
-        </div>       
+              <section id="About" class="about text-gray-700 body-font"></section>  
        
         <!-- skills Section -->
         <section class="text-white body-font" id="body">
@@ -114,9 +112,10 @@
 
             </div>
             </div>
+           </div> 
         </section>
         <!-- Experience -->
-          <section class="text-gray-700 body-font" id="About">
+          <section class="text-gray-700 body-font" id="Experience">
             <div class="container px-5 py-24 mx-auto">
               <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
                 <h1 id='font' class="color1 sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">My Journey and Achievements </h1>
@@ -125,11 +124,14 @@
               </div>
              
               <!-- Content Show through Experience.js -->
-              <div class="flex flex-wrap -m-4 Experience"></div>
+              <div class="Experience flex flex-wrap -m-4">
+
+              </div>
+             </div> 
         </section>        
 
 <!--Contact Us Page-->
-        <section class="text-white body-font relative" id="Contact" style="background-color:#121212;">
+        <section class="text-white body-font" id="Contact">
           <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
               <h1 id='font' class="color1 sm:text-4xl text-2xl font-medium title-font mb-4 text-white">Say Hi!</h1>

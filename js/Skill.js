@@ -44,7 +44,7 @@ function displaycard(){
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="${img}">
           <div class="flex-grow">
-            <h2 class="text-white title-font font-medium">${title}</h2>
+            <h2 id='font' class="text-white title-font font-medium">${title}</h2>
           </div>
         </div>
       </div>`

@@ -8,7 +8,7 @@ var aboutcontent = [
 ]
 
 function displayAbout(){
-    console.log('running');
+    // console.log('running');
     let output = ''
     aboutcontent.forEach(({intro}) => {
         output += `<div class="container px-5 py-24 mx-auto flex flex-wrap">

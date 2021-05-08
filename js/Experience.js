@@ -6,7 +6,7 @@ var experienceCard = [
     {
         title: 'Web-Developer Intern | careerguide.com',
         desc:'',
-        date: 'October 2020 - December 2020 ',
+        date: 'October 2020 - November 2020 ',
         Tool: 'Tool Used: Wordpress'
     },
     {
@@ -31,7 +31,7 @@ var experienceCard = [
 ]
 
 function displaycard(){
-    console.log('ok');
+    // console.log('ok');
     let output = ""
     experienceCard.forEach(({title ,desc,date, Tool}) =>{
         output += `<div class="xl:w-1/2 md:w-1/2 p-4">

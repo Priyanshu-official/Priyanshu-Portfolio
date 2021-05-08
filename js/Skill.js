@@ -37,7 +37,7 @@ var skillcard = [
 ]
 
 function displaycard(){
-    console.log('running');
+    // console.log('running');
     let output = ""
     skillcard.forEach(({title, img}) =>{
         output += `<div class="p-2 lg:w-1/2 md:w-1/2 w-full">

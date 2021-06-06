@@ -13,25 +13,33 @@ var skillcard = [
         title:'Python',
         img:'assest/python.png'
     },
+    {
+        title:'JavaScript',
+        img:'assest/javascript.png'
+    },
     
     {
         title:'React',
-        img:'assest/react.png'
+        img:'assest/react.svg'
     },
     
     {
         title:'Django',
-        img:'assest/django-logo.png'
+        img:'assest/django-logo.svg'
     },
     
     {
-        title:'Web-Development',
-        img:'assest/html_css_js.png'
+        title:'HTML & CSS',
+        img:'assest/html-logo.png'
     },
     
     {
-        title:'Open-Source Contributation',
+        title:'GitHub',
         img:'assest/github_C.svg'
+    },
+    {
+        title:'Netlify',
+        img:'assest/netlify-icon.svg'
     },
     
 ]
@@ -40,11 +48,11 @@ function displaycard(){
     // console.log('running');
     let output = ""
     skillcard.forEach(({title, img}) =>{
-        output += `<div class="p-2 lg:w-1/2 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <img class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="${img}">
+        output += `<div class="p-2  md:w-1/3 w-1/2 ">
+        <div class="h-full flex items-center border-gray-200 p-4 ">
+          <img class="w-12 h-12 object-contain object-center   mr-4" src="${img}">
           <div class="flex-grow">
-            <h2 id='font' class="text-white title-font font-medium">${title}</h2>
+            <h2 id='font1' class="text-white text-xl title-font font-medium">${title}</h2>
           </div>
         </div>
       </div>`

@@ -14,7 +14,7 @@ function displayAbout(){
     // console.log('running');
     let output = ''
     aboutcontent.forEach(({intro}) => {
-        output += `<div class="container px-5 py-24 mx-auto flex flex-wrap">
+        output += `<div id="glass" class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="mb-10 lg:mb-0 mt-6">
       <img alt="feature" class="object-cover object-center rounded" src="./assest/giphy.gif">
       <img class="mt-4" src="https://github-readme-stats.vercel.app/api?username=Priyanshu-official&show_icons=true&locale=en&count_private=true&hide_border=true" alt="priyanshu-official" />

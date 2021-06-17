@@ -4,47 +4,39 @@ var experienceContainer = document.querySelector('.Experience')
 // array containig data Card view
 var experienceCard = [
     {
-        title: 'Web-Developer Intern | careerguide.com',
-        desc:'',
-        date: 'October 2020 - November 2020 ',
-        Tool: 'Tool Used: Wordpress'
+        title: 'Web-Developer',
+        company: 'Divergent Infoconnect',
+        date: 'Oct 2020- April 2021',
+        desc: `➔ Developed Company Website & Deployed on server, Worked on more 2 project i.e Portfolio, Divergentlly. <br>
+        ➔ Also launched New service i.e Web development service. Learned new technology like CMS (WordPress), Web
+        Scraping, Hosting Website`
     },
     {
-        title: 'Web Developer | Verzeo',
-        desc:'',
-        date: 'December 2019 - January 2020 ',
-        Tool: 'Tool Used: HTML, CSS, JS, Django'
-    },
-    {
-        title: 'Hacktoberfest | Open Source | 2020',
-        desc:'Successful 4 PR ',
-        date: '',
-        Tool: ''
-    },
-    {
-        title: 'GeeksforGeeks | Open Source Competition | 2020',
-        desc:'Third Position @ Game of Source all over India',
-        date: '',
-        Tool: ''
-    },
+      title: 'WordPress Developer',
+      company: 'Careerguide.com',
+      date: 'Oct 2020 - Nov 2020',
+      desc: `➔ I Worked with the CEO & developer team and got an opportunity to help new Interns. <br>
+      ➔ Worked on a new Business Idea i.e Become A Psychometric Partner & Earn With CareerGuide .`
+  },    {
+    title: 'Participant',
+    company: 'Script Winter of Code (SWOC)',
+    date: 'Jan 2021 - Mar 2021',
+    desc: `➔ Contributed and Collaborated in OpenSource Projects Amazing-Python-Scripts, Awesome Portfolio Websites,
+    Idea Lab.`
+},
 
 ]
 
 function displaycard(){
     // console.log('ok');
     let output = ""
-    experienceCard.forEach(({title ,desc,date, Tool}) =>{
-        output += `<div class="xl:w-1/2 md:w-1/2 p-4">
-        <div class="border border-gray-300 p-6 rounded-lg hover:bg-blue-700 duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-11">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-            </svg>
-          </div>
-          <h2 id='font' class="text-lg text-white font-medium title-font mb-2">${title}</h2>
-          <p id='font' class="leading-relaxed text-gray-200 text-base">${desc}${date}<br>${Tool}</p>
-        </div>
-      </div>`
+    experienceCard.forEach(({title ,desc,date,company}) =>{
+        output += `
+        <li class="event">
+          <h3 class="color1">${title} |<span class="text-lg"> ${company}</span> </h3>
+          <p >${desc}</p>
+          <p class="month">${date}</p>
+        </li>`
     
     })
     //  adding content to the container

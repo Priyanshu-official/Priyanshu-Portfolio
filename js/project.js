@@ -45,7 +45,7 @@ function displayCard() {
         output += ` <div id="glass" class="xl:w-2/5 md:w-1/2 p-4 m-2 mx-auto ">
         <div class="rounded-lg">
           <img class="h-40 rounded w-full object-cover object-center mb-6" src=${img} alt="content"/>
-          <h2 id="font1" class="color1 text-lg text-white font-medium title-font">${title}</h2>
+          <h1 id="font1" class="color1 text-2xl text-white font-medium title-font">${title}</h1>
           <h3 id="font1" class="tracking-widest text-blue-500 text-sm font-medium title-font mb-4">${tag}</h3>
           <p id="font1" class="leading-relaxed text-lg text-white">${desc}</p>
         </div>

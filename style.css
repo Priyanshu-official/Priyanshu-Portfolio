@@ -40,10 +40,6 @@ html{
   width: 100%;
 }
 
-@media screen and (max-width: 500px) {
-      #webnav { display:none;}
-  }
-
   #selfbg{
       border-radius: 50px;
       box-shadow:  27px 27px 10px #0f0f0f,
@@ -160,4 +156,18 @@ html{
   box-shadow: inset 5px 5px 10px #0f0f0f,
               inset -5px -5px 10px #151515;
   
+}
+
+.btn-glass{
+  border-radius: 15px;
+  background: #121212;
+  box-shadow: inset 8px 8px 16px #0f0f0f,
+              inset -8px -8px 16px #151515;
+}
+
+.btn-project{
+  border-radius: 15px;
+background: #121212;
+box-shadow:  8px 8px 16px #0f0f0f,
+             -8px -8px 16px #151515;
 }

@@ -34,7 +34,7 @@ function displaycard(){
             </img>
             <h1 id='font1' class="text-2xl text-white font-medium title-font mb-2 ml-2"> ${title}</h1>
           </div>
-          <p id='font1' class="leading-relaxed text-gray-200 text-base">${desc}${date}</p>
+          <p id='font1' class="leading-relaxed text-gray-200 text-base mt-2">${desc}${date}</p>
         </div>
         </div>`
     

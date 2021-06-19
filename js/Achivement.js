@@ -32,9 +32,9 @@ function displaycard(){
           <div class="inline-flex items-center">
             <img src=${img} class="w-10 h-10">
             </img>
-            <h1 id='font1' class="text-2xl text-white font-medium title-font mb-2 ml-2"> ${title}</h1>
+            <h1 id='font1' class="text-2xl text-white font-medium title-font mb-2 ml-2"> ${title} |<span class="text-lg ml-2">${date}</span> </h1>
           </div>
-          <p id='font1' class="leading-relaxed text-gray-200 text-base mt-2">${desc}${date}</p>
+          <p id='font1' class="leading-relaxed text-gray-200 text-base mt-2">${desc}</p>
         </div>
         </div>`
     

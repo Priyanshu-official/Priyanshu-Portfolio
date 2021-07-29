@@ -33,7 +33,9 @@ function displaycard(){
     experienceCard.forEach(({title ,desc,date,company}) =>{
         output += `
         <li class="event">
-          <h3 class="color1">${title} |<span class="text-lg"> ${company}</span> </h3>
+        <div class="inline-flex">
+            <h3 class="color1">${title} |</h3><span class="text-base ml-1" id="color3"> ${company}</span>
+        </div>
           <p >${desc}</p>
           <p class="month">${date}</p>
         </li>`

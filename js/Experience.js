@@ -34,7 +34,7 @@ function displaycard(){
         output += `
         <li class="event">
         <div class="inline-flex">
-            <h3 class="color1">${title} |</h3><span class="text-base ml-1" id="color3"> ${company}</span>
+            <h3 class="color1">${title}</h3><span class="border-l-2 border-blue-500 ml-1"></span> <span class="text-base ml-2" id="color3"> ${company}</span>
         </div>
           <p >${desc}</p>
           <p class="month">${date}</p>

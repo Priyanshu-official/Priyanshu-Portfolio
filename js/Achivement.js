@@ -6,7 +6,7 @@ var AchiveCard = [
       desc: "<strong>Best Hack Built On Elastic :</strong> Project Zone by theCuriousMinds in HackOn Hackathon 2.0",
       date:"May 2021", 
       img:"https://he-s3.s3.amazonaws.com/media/cache/c1/ac/c1ac27f899fcd944bdb55b6fc3dbc2e0.png",
-      certificate: "./assest/HackOn_Priyanshu.jpg" 
+      certificate: "./assest/HackOn_Priyanshu.png" 
     },
     {
         title: "Crio.do",

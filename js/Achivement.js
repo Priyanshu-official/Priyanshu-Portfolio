@@ -18,7 +18,7 @@ var AchiveCard = [
       },
       {
         title: "Game of Source",
-        desc: "<strong>2nd Runner</strong> Up in GeeksforGeeks Student Chapter Game of Source, OpenSource Competition.",
+        desc: "<strong>3rd Runner</strong> Up in GeeksforGeeks Student Chapter Game of Source, OpenSource Competition.",
         date:"October 2020", 
         img: "https://media.geeksforgeeks.org/wp-content/uploads/20210101144014/gfglogo.png",
         certificate: "./assest/Certificate-GFG.png"  

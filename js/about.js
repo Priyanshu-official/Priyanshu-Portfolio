@@ -25,6 +25,12 @@ function displayAbout(){
           <h1 id='font1' class="color1 title-font sm:text-4xl text-3xl text-lg title-font font-medium text-center mb-4  border-l-2 border-blue-500">About Me</h1>
           <p id='font1' class="leading-relaxed text-base text-justify text-white " style="font-size: x-large;">${intro}</p>
         </div>
+        <div class="flex-grow mt-4 text-white">
+        <blockquote id='font1' class="badgr-badge">
+        <a href="https://api.badgr.io/public/assertions/MpBu5coRSoSb0ImySON2DQ?identity__email=priyanshukaushal878%40gmail.com">
+        <img width="120px" height="120px" src="https://api.badgr.io/public/assertions/MpBu5coRSoSb0ImySON2DQ/image"></a>
+        <p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word;margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left;">Postman Student Expert</p>
+        <p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #479CE2;">Awarded:</strong>Aug 13, 2021</p><script async="async" src="https://badgr.com/assets/widgets.bundle.js"></script></blockquote></div>
       </div>
     </div>
   </div>`

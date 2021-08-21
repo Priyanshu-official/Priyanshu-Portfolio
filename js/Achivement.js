@@ -38,8 +38,8 @@ function displaycard(){
             </img>
             <h1 id='font1' class="text-2xl text-white font-medium title-font mb-2 ml-2"> ${title} |<span class="text-lg ml-2">${date}</span> </h1>
           </div>
-          <p id='font1' class="leading-relaxed text-gray-200 text-base mt-2">${desc}</p>
           <img src=${certificate} class="mt-2"/>
+          <p id='font1' class="leading-relaxed text-gray-200 text-base mt-2">${desc}</p>
         </div>
         </div>`
     

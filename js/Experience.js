@@ -10,7 +10,7 @@ var experienceCard = [
         desc: `➔ Developed Company Website & Deployed on server, Worked on more 2 project i.e Portfolio, Divergentlly. <br>
         ➔ Also launched New service i.e Web development service. Learned new technology like CMS (WordPress), Web
         Scraping, Hosting Website`,
-        LOR: 'Letter Of Recommendation' ,
+        LOR: 'L O R' ,
         Link:'https://drive.google.com/file/d/1xERjWkN3amCniZyeGMEcwlseKXtYqmgr/view?usp=sharing',
     },
     {

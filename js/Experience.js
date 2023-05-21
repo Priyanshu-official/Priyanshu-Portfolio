@@ -4,6 +4,19 @@ var experienceContainer = document.querySelector('.Experience')
 // array containig data Card view
 var experienceCard = [
     {
+        title: 'Full Stack Developer Summer Internship ',
+        company: 'HighRadius',
+        date: 'May 2021- Jun 2021',
+        desc: `I was involved in building and deploying an AI-enabled B2B Fintech cloud application. During this project, 
+        I gained a deep understanding of all aspects of product development by identifying user requirements, designing a great user experience,
+        and building appropriate data models. I used technologies such as Java, JDBC, HTML, CSS, JSP/Servlets, and JavaScript to create a full-stack web-based product.
+        Additionally, I built a Receivables Dashboard.,<br>
+        ● Visualize Data in the form of a table. 
+        ● Perform Searching operations on the invoices. 
+        ● Modify data in the editable fields of the grid.`,
+        Link:'https://drive.google.com/file/d/12qiqfylS1BKvLe06jCBDjD-FrzfsHVzQ/view?usp=share_link',
+    },
+    {
         title: 'Web-Developer',
         company: 'Divergent Infoconnect',
         date: 'Oct 2020- April 2021',

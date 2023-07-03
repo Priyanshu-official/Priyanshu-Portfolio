@@ -2,7 +2,7 @@ var aboutContainer = document.querySelector('.about')
 
 var aboutcontent = [
     {
-        intro:`My name is Priyanshu. I'm a Front-end Developer from 🇮🇳 . I'm an open-source enthusiast & a quick learner. 
+        intro:`I'm a Developer from INDIA . I'm an open-source enthusiast & a quick learner. 
                I love to contribute to Open Source Projects and Communities. <br> I am keen and very willing to learn and develop new skills.
                Seeking a challenging position in a growth-oriented environment where I can expand and utilize my learning and skills so 
                that I can contribute towards organizational goals and establish a career for myself. `,

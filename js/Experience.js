@@ -16,7 +16,7 @@ var experienceCard = [
         2. Project Management: Coordinating tasks, managing timelines, and ensuring successful project execution.
         3. Root Cause Analysis: Identifying underlying factors and proposing solutions to improve automation levels.
         4. Communication and Collaboration: Collaborating with teams and understanding client requirements.`,
-        Link:'',
+        Link:'#',
     },
     {
         title: 'Data Analyst Intern',
@@ -28,7 +28,7 @@ var experienceCard = [
         I also demonstrated my project management and problem-solving skills by working closely with the Project Manager and SDM to increase 
         the automation rate from the base percentage to 85% by conducting root cause analysis on the project. I delivered quality results on time for more than 10 accounts, 
         showing my reliability and efficiency.`,
-        Link:'',
+        Link:'#',
     },
     {
         title: 'Full Stack Developer Summer Internship',

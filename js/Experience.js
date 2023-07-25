@@ -10,7 +10,7 @@ var experienceCard = [
         desc: `● Collaborating with the 10+ In-flight Analyst Team, to achieve optimal automation percentage for DMS, delivering value to clients like Kraft NA, Novartis, and Post Brands.</br>
          ● This included completing 4 CPG NA segment projects, participating in pre-preparation, and shadowing best automation practices for a smooth go-live.</br> 
          ● Incorporated automated analysis, including trended analysis, to analyze deduction root causes, pinpoint process improvement opportunities, and execute data-driven action plans with the Project Team and derived automation up to 80%.`,
-         LOR: 'Certificate' ,
+         LOR: 'NA' ,
          Link:'#',
     },
     {
@@ -21,7 +21,7 @@ var experienceCard = [
         ● Contributed as a Data Analyst With the 5+ ML team. We are responsible for refactoring algorithms according to client data and optimizing them to achieve 90% results.</br> 
         ● Created a Web-App during training to predict client payment dates for newly created invoices with 80% accuracy. Utilized tools like Pandas, Excel, Python, MySQL, JavaScript, and Restful API.`,
         LOR: 'Certificate',
-        Link:'#',
+        Link:'https://drive.google.com/file/d/1k6-QP_PhR6JHn47EZaAgmadmabJ00Avh/view?usp=drive_link',
     },
     {
         title: 'Full Stack Developer Summer Internship',

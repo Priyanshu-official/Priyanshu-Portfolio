@@ -7,28 +7,19 @@ var experienceCard = [
         title: 'Data Science Analyst',
         company: 'HighRadius',
         date: 'Jun 2022- Present',
-        desc: `I have collaborated with the Inflight Team to achieve optimal automation percentage for DMS, ensuring swift delivery of value to clients. 
-        This involved successfully completing 4 CPG segment projects and actively participating in the pre-preparation phase, as well as shadowing the 
-        best automation practices for a seamless transition to the go-live stage. Working alongside the Project Team, I have identified the underlying 
-        reasons for low automation and provided effective strategies to enhance the percentage. These efforts have empowered our clients to enhance their 
-        efficiency in B2B transactions and attain tangible business outcomes, such as reducing DSO, optimizing working capital, minimizing bad debt, and ultimately improving productivity.<br>
-        1. Automation Strategy: Developing effective strategies for maximizing automation percentage in DMS.
-        2. Project Management: Coordinating tasks, managing timelines, and ensuring successful project execution.
-        3. Root Cause Analysis: Identifying underlying factors and proposing solutions to improve automation levels.
-        4. Communication and Collaboration: Collaborating with teams and understanding client requirements.`,
-        Link:'#',
+        desc: `● Collaborating with the 10+ In-flight Analyst Team, to achieve optimal automation percentage for DMS, delivering value to clients like Kraft NA, Novartis, and Post Brands.</br>
+         ● This included completing 4 CPG NA segment projects, participating in pre-preparation, and shadowing best automation practices for a smooth go-live.</br> 
+         ● Incorporated automated analysis, including trended analysis, to analyze deduction root causes, pinpoint process improvement opportunities, and execute data-driven action plans with the Project Team and derived automation up to 80%.`,
+        //Link:'#',
     },
     {
         title: 'Data Analyst Intern',
         company: 'HighRadius',
         date: 'Jun 2021- Jun 2022',
-        desc: `I was part of the deduction management system (O2C cycle) team at Highradius, 
-        where I applied my data analysis and rule-based programming skills to use Automation Algo to 
-        analyze data and create rules for identifying the causes of deductions in customer claims. 
-        I also demonstrated my project management and problem-solving skills by working closely with the Project Manager and SDM to increase 
-        the automation rate from the base percentage to 85% by conducting root cause analysis on the project. I delivered quality results on time for more than 10 accounts, 
-        showing my reliability and efficiency.`,
-        Link:'#',
+        desc: `● Experienced in utilizing Highradius deduction management software to streamline deduction resolution processes, automate manual tasks, and enable deduction analysts to prioritize higher-level activities.,/br> 
+        ● Contributed as a Data Analyst With the 5+ ML team. We are responsible for refactoring algorithms according to client data and optimizing them to achieve 90% results.</br> 
+        ● Created a Web-App during training to predict client payment dates for newly created invoices with 80% accuracy. Utilized tools like Pandas, Excel, Python, MySQL, JavaScript, and Restful API.`,
+        // Link:'#',
     },
     {
         title: 'Full Stack Developer Summer Internship',

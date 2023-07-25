@@ -10,7 +10,8 @@ var experienceCard = [
         desc: `● Collaborating with the 10+ In-flight Analyst Team, to achieve optimal automation percentage for DMS, delivering value to clients like Kraft NA, Novartis, and Post Brands.</br>
          ● This included completing 4 CPG NA segment projects, participating in pre-preparation, and shadowing best automation practices for a smooth go-live.</br> 
          ● Incorporated automated analysis, including trended analysis, to analyze deduction root causes, pinpoint process improvement opportunities, and execute data-driven action plans with the Project Team and derived automation up to 80%.`,
-        //Link:'#',
+         LOR: 'Certificate' ,
+         Link:'#',
     },
     {
         title: 'Data Analyst Intern',
@@ -19,7 +20,8 @@ var experienceCard = [
         desc: `● Experienced in utilizing Highradius deduction management software to streamline deduction resolution processes, automate manual tasks, and enable deduction analysts to prioritize higher-level activities.,/br> 
         ● Contributed as a Data Analyst With the 5+ ML team. We are responsible for refactoring algorithms according to client data and optimizing them to achieve 90% results.</br> 
         ● Created a Web-App during training to predict client payment dates for newly created invoices with 80% accuracy. Utilized tools like Pandas, Excel, Python, MySQL, JavaScript, and Restful API.`,
-        // Link:'#',
+        LOR: 'Certificate',
+        Link:'#',
     },
     {
         title: 'Full Stack Developer Summer Internship',
@@ -28,10 +30,11 @@ var experienceCard = [
         desc: `I was involved in building and deploying an AI-enabled B2B Fintech cloud application. During this project, 
         I gained a deep understanding of all aspects of product development by identifying user requirements, designing a great user experience,
         and building appropriate data models. I used technologies such as Java, JDBC, HTML, CSS, JSP/Servlets, and JavaScript to create a full-stack web-based product.
-        Additionally, I built a Receivables Dashboard.,<br>
-        ● Visualize Data in the form of a table. 
-        ● Perform Searching operations on the invoices. 
+        Additionally, I built a Receivables Dashboard.<br>
+        ● Visualize Data in the form of a table.</br> 
+        ● Perform Searching operations on the invoices.</br> 
         ● Modify data in the editable fields of the grid.`,
+        LOR: 'Certificate' ,
         Link:'https://drive.google.com/file/d/12qiqfylS1BKvLe06jCBDjD-FrzfsHVzQ/view?usp=share_link',
     },
     {
